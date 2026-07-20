@@ -176,6 +176,39 @@ function renderNotes(notes) {
   notes.forEach((n) => ul.appendChild(el("li", "", n)));
 }
 
+/* ---------- first-time China tips ---------- */
+function renderChinaTips(tips) {
+  const wrap = $("#chinaTips");
+  if (!wrap || !tips) return;
+  const eyebrow = $("#chinaEyebrow");
+  if (eyebrow && tips.eyebrow) eyebrow.textContent = tips.eyebrow;
+  const title = $("#chinaTitle");
+  if (title && tips.title) title.textContent = tips.title;
+  const intro = $("#chinaIntro");
+  if (intro && tips.intro) intro.textContent = tips.intro;
+
+  const linkHTML = (item) => (item.links || [])
+    .map((l) => `<a class="tip-link" href="${l.url}" target="_blank" rel="noopener noreferrer">${l.label} ↗</a>`)
+    .join("");
+
+  (tips.groups || []).forEach((g) => {
+    const card = el("article", "tip-card");
+    card.innerHTML = `
+      <div class="tip-head">
+        <span class="tip-icon" aria-hidden="true">${g.icon || "✦"}</span>
+        <h3 class="tip-title">${g.title}</h3>
+      </div>
+      ${g.note ? `<p class="tip-note">${g.note}</p>` : ""}
+      <ul class="tip-list">
+        ${(g.items || []).map((it) =>
+          `<li><span class="tip-text">${it.text}</span>` +
+          `${(it.links && it.links.length) ? `<span class="tip-links">${linkHTML(it)}</span>` : ""}</li>`
+        ).join("")}
+      </ul>`;
+    wrap.appendChild(card);
+  });
+}
+
 /* ---------- why these cities (boarding-pass cards) ---------- */
 function renderCities(destinations) {
   const grid = $("#citiesGrid");
@@ -518,6 +551,7 @@ function initNav() {
     renderFlights(data.flights);
     renderForty(data.fortyThings || []);
     renderNotes(data.notes);
+    renderChinaTips(data.chinaTips);
   } catch (e) {
     console.error(e);
     $("#feed").innerHTML = `<p class="muted">Couldn't load the itinerary. Run this from a local server (see README) so the browser can read the data file.</p>`;

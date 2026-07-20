@@ -19,7 +19,8 @@
   "crew": [
     { "country": "United Kingdom", "flag": "🇬🇧", "code": "UK", "people": ["Chao", "Brendan", "Dave", "Ryan", "Chris", "Tano"] },
     { "country": "Australia", "flag": "🇦🇺", "code": "AUS", "people": ["Karl", "Trevor", "Rohan", "Rebecca"] },
-    { "country": "Singapore", "flag": "🇸🇬", "code": "SG", "people": ["Jason", "Lynette", "Glenn"] },
+    { "country": "Singapore", "flag": "🇸🇬", "code": "SG", "people": ["Lynette", "Glenn"] },
+    { "country": "Hong Kong", "flag": "🇭🇰", "code": "HK", "people": ["Jason"] },
     { "country": "United States", "flag": "🇺🇸", "code": "US", "people": ["Tom", "Jerry"] },
     { "country": "China", "flag": "🇨🇳", "code": "CN", "people": ["Ryan"] },
     { "country": "Taiwan", "flag": "🇹🇼", "code": "TW", "people": ["Allen"] }
@@ -55,21 +56,31 @@
     { "name": "Airbnb — Home in Meihua Village", "city": "Taipei", "flag": "🇹🇼", "dates": "27 Oct – 1 Nov", "status": "booked", "detail": "Host: WuWu · Meihua Village, Taipei · 5-min walk to Shandao Temple MRT · keypad self check-in · checkout Sun 1 Nov 11:00", "locked": [ { "label": "Full address", "secret": "airbnb_address" }, { "label": "Confirmation code", "secret": "airbnb_confirmation" } ] }
   ],
   "flights": [
-    { "code": "TBC", "date": "Thu 22 Oct", "from": "London", "to": "Munich (MUC)", "note": "To book, connects to CX300", "status": "tbc" },
+    { "code": "BA0936", "date": "Wed 21 Oct", "from": "London (LHR) 3:05pm · T5", "to": "Munich (MUC) 6:05pm · T1", "note": "British Airways · Euro Traveller · overnight in Munich before CX300", "status": "booked" },
     { "code": "CX300", "date": "Thu 22 Oct", "from": "Munich (MUC) 1:50pm", "to": "Hong Kong (HKG) 6:50am +1", "note": "Overnight to Hong Kong · Business", "status": "booked" },
     { "code": "CX450", "date": "Tue 27 Oct", "from": "Hong Kong (HKG) 10:00am", "to": "Taipei (TPE) 11:50am", "note": "Business", "status": "booked" },
     { "code": "CX531", "date": "Sun 1 Nov", "from": "Taipei (TPE) 8:15pm", "to": "Hong Kong (HKG) 10:20pm", "note": "Business", "status": "booked" },
     { "code": "CX301", "date": "Mon 2 Nov", "from": "Hong Kong (HKG) 1:10am", "to": "Munich (MUC) 7:50am", "note": "Red-eye home · Business", "status": "booked" },
-    { "code": "TBC", "date": "Mon 2 Nov", "from": "Munich (MUC)", "to": "London", "note": "To book, same day", "status": "tbc" }
+    { "code": "BA0947", "date": "Mon 2 Nov", "from": "Munich (MUC) 12:50pm · T1", "to": "London (LHR) 2:00pm · T5", "note": "British Airways · Euro Traveller", "status": "booked" }
   ],
   "days": [
     {
-      "date": "Thu 22 Oct", "city": "In transit", "flag": "🛫", "kicker": "Travel day",
-      "title": "London → Munich → Hong Kong",
+      "date": "Wed 21 Oct", "city": "London → Munich", "flag": "🛫", "kicker": "Travel day",
+      "title": "London → Munich",
+      "summary": "The positioning hop. Overnight in Munich before the big flight east.",
+      "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=900&q=70",
+      "plans": [
+        { "time": "Afternoon", "plan": "✈️ BA0936: Heathrow (LHR) T5 3:05pm → Munich (MUC) T1 6:05pm (British Airways · Euro Traveller)." },
+        { "time": "Evening", "plan": "🛌 Overnight in Munich, ready for CX300 tomorrow." }
+      ]
+    },
+    {
+      "date": "Thu 22 Oct", "city": "Munich → Hong Kong", "flag": "🛫", "kicker": "Travel day",
+      "title": "Munich → Hong Kong",
       "summary": "Wheels up. The long haul east begins.",
       "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=900&q=70",
       "plans": [
-        { "time": "Midday", "plan": "✈️ TBC. Book London → Munich (MUC), allow time to connect to CX300." },
+        { "time": "Morning", "plan": "Slow morning in Munich after last night's positioning flight, then out to the airport." },
         { "time": "Afternoon", "plan": "✈️ CX300: Depart Munich 1:50pm → overnight flight to Hong Kong (Business)." },
         { "time": "Evening", "plan": "🛋 In the air. Arriving Hong Kong 6:50am the next morning." }
       ]
@@ -204,7 +215,7 @@
       "image": "https://images.unsplash.com/photo-1777877291532-7ef9960442f3?w=900&q=70",
       "plans": [
         { "time": "Late night", "plan": "✈️ CX301: Hong Kong 1:10am → Munich 7:50am (Business)." },
-        { "time": "Morning", "plan": "✈️ TBC. Book Munich → London (same day, after 7:50am)." }
+        { "time": "Midday", "plan": "✈️ BA0947: Munich (MUC) T1 12:50pm → Heathrow (LHR) T5 2:00pm (British Airways · Euro Traveller)." }
       ]
     }
   ],
@@ -227,7 +238,69 @@
   ],
   "notes": [
     "This is a living list: will be constantly updated.",
-    "⚠️ Book London → Munich and Munich → London connecting flights.",
-    "⚠️ Book Hong Kong stay for the night of 26 Oct."
-  ]
+    "⚠️ Book Hong Kong stay for the night of 26 Oct.",
+    "🇨🇳 Shenzhen is mainland China — sort your China visa or Shenzhen permit and set up Alipay/WeChat Pay before you fly (see the China tips below)."
+  ],
+  "chinaTips": {
+    "eyebrow": "First time in China?",
+    "title": "Shenzhen survival kit",
+    "intro": "For most of us this is a first trip to mainland China. Hong Kong and Taipei run on the open internet you already know — but our night in Shenzhen (Sun 25 Oct) is mainland China, where Google, WhatsApp and your usual apps are blocked and almost nobody takes cash or foreign cards in person. Sort these before you fly.",
+    "groups": [
+      {
+        "icon": "💳",
+        "title": "Set up mobile payments before you fly",
+        "note": "Shenzhen is effectively cashless — street stalls, taxis and shops all expect a QR scan, and foreign cards are rarely accepted in person.",
+        "items": [
+          { "text": "Install BOTH Alipay and WeChat Pay and link a foreign Visa or Mastercard. Set up two, because when one fails at a till the other usually works." },
+          { "text": "Do it at home on reliable wifi: register with your phone number, complete passport real-name verification (name + face scan), then add your card.", "links": [ { "label": "Alipay foreign-card guide", "url": "https://www.trip.com/guide/payments/how-to-add-card-to-alipay.html" }, { "label": "WeChat Pay official guide", "url": "https://help.wechat.com/cgi-bin/micromsg-bin/oshelpcenter?opcode=2&id=2307252mur7f2307257zfyfe&lang=en&plat=ios&Channel=helpcenter" } ] },
+          { "text": "Fees: payments of ¥200 or less are free; a 3% fee applies above that (WeChat waives it for the first 60 days on a new card)." }
+        ]
+      },
+      {
+        "icon": "🌐",
+        "title": "Get online past the Great Firewall",
+        "note": "This only matters in Shenzhen — Hong Kong and Taipei are wide open.",
+        "items": [
+          { "text": "Blocked in mainland China: Google (Search, Maps, Gmail), YouTube, WhatsApp, Instagram, Facebook, Messenger and X — all dead without a workaround." },
+          { "text": "Easiest fix in 2026 is a roaming travel eSIM (Airalo, Holafly, Saily). It routes your data out via Hong Kong or Singapore, so WhatsApp, Google and Instagram just work with no VPN. Buy and install it before you land.", "links": [ { "label": "Why an eSIM beats a VPN in China", "url": "https://esimdb.com/blog/travel-esim-china-vpn-great-firewall/" } ] },
+          { "text": "VPNs are unreliable in 2026 after a crackdown, and you can't download one once you're inside China. If you want one as a backup, install it at home first." }
+        ]
+      },
+      {
+        "icon": "🗺️",
+        "title": "Maps that actually work",
+        "items": [
+          { "text": "Google Maps is blocked and inaccurate on the mainland. iPhone users: just use Apple Maps — it runs on Amap's data, is fully in English and needs no VPN." },
+          { "text": "Android users (or anyone wanting local detail plus ride-hailing) should download Amap / AMap Global, the English version, before the trip.", "links": [ { "label": "Amap English setup guide", "url": "https://www.trip.com/guide/info/amap.html" } ] }
+        ]
+      },
+      {
+        "icon": "🚕",
+        "title": "Getting around Shenzhen",
+        "items": [
+          { "text": "DiDi is China's Uber. Use the domestic 'DiDi Chuxing' app — English interface, register with your normal number, pay via Alipay/WeChat, and the chat auto-translates.", "links": [ { "label": "How to use DiDi", "url": "https://www.trip.com/guide/transport/how-to-use-didi-in-china.html" } ] },
+          { "text": "At the station or airport, head to the 网约车 (ride-hailing) pickup zone rather than the taxi curb." },
+          { "text": "The high-speed train runs from Hong Kong West Kowloon to Shenzhen Futian in about 15 minutes, with immigration cleared inside the station." }
+        ]
+      },
+      {
+        "icon": "🛂",
+        "title": "Visa & border — sort this early",
+        "note": "The big one. Because we cross from Hong Kong and come straight back, the 240-hour visa-free transit does NOT apply. Check your own passport's rules and arrange this before the trip.",
+        "items": [
+          { "text": "Option A: a proper China tourist (L) visa — the safe choice, especially if any mainland plans change." },
+          { "text": "Option B: the 5-day Shenzhen Special Economic Zone permit, issued at the Futian / Lok Ma Chau checkpoint (about ¥168, pay by Alipay/WeChat). Valid inside Shenzhen only, open to UK, US, Australia and ~50 other nationalities.", "links": [ { "label": "Shenzhen 5-day permit details", "url": "https://www.travelchinaguide.com/cityguides/guangdong/shenzhen/visa-on-arrival.htm" } ] }
+        ]
+      },
+      {
+        "icon": "🎒",
+        "title": "Handy extras",
+        "items": [
+          { "text": "Carry your passport on the mainland — you'll need it for the train, hotel check-in and payment verification." },
+          { "text": "Download a translation app with the offline Chinese pack before you go (Google Translate — grab the offline pack first — or Baidu Translate, which works locally). The camera menu-translate is a lifesaver." },
+          { "text": "Keep a little cash (CNY) as backup, but expect to pay for almost everything by QR." }
+        ]
+      }
+    ]
+  }
 }

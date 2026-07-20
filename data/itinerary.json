@@ -2,15 +2,15 @@
   "meta": {
     "title": "Chao turns 40",
     "tagline": "Hong Kong · Shenzhen · Taipei",
-    "blurb": "Part reunion, part food coma, part shameless excuse to fly Business. 17 friends, 6 countries, one birthday that's going to be very hard to top.",
+    "blurb": "Part reunion, part food coma, part shameless excuse to fly Business. 18 friends, 6 countries, one birthday that's going to be very hard to top.",
     "invite": "Hey, it's finally happening. I'm turning 40.\n\nThis trip isn't just about celebrating my birthday. It's about celebrating some of the best bits of my life, especially the incredible humans I've collected along the way. That means you.\n\nYou've all been part of my story in different ways, across different chapters, countries, continents, adventures, and mildly questionable decisions. So I thought: what better way to mark 40 than by bringing some of my favourite people together for one big trip across Hong Kong, Shenzhen, and Taiwan?\n\nWe'll explore new places, eat unknown foods, get a bit lost, laugh a lot, and create the kind of memories we'll still be talking about years from now.\n\nHere's to 40, friendship, food, adventure, and just the right amount of chaos.",
-    "playful": "17 friends · 3 cities · 1 very full camera roll",
+    "playful": "18 friends · 3 cities · 1 very full camera roll",
     "dateRange": "Fri 23 Oct → Sun 1 Nov 2026",
     "tripWindow": "Oct–Nov 2026",
     "startDate": "2026-10-23",
     "endDate": "2026-11-01",
     "birthdayDate": "2026-10-24",
-    "travelers": 17,
+    "travelers": 18,
     "countries": 6,
     "nights": 9,
     "flightRef": "Cathay Pacific · Business class",
@@ -18,7 +18,7 @@
   },
   "crew": [
     { "country": "United Kingdom", "flag": "🇬🇧", "code": "UK", "people": ["Chao", "Brendan", "Dave", "Ryan", "Chris", "Tano"] },
-    { "country": "Australia", "flag": "🇦🇺", "code": "AUS", "people": ["Karl", "Trevor", "Rohan", "Rebecca"] },
+    { "country": "Australia", "flag": "🇦🇺", "code": "AUS", "people": ["Karl", "Trevor", "Rohan", "Rebecca", "Adam"] },
     { "country": "Singapore", "flag": "🇸🇬", "code": "SG", "people": ["Lynette", "Glenn"] },
     { "country": "Hong Kong", "flag": "🇭🇰", "code": "HK", "people": ["Jason"] },
     { "country": "United States", "flag": "🇺🇸", "code": "US", "people": ["Tom", "Jerry"] },
@@ -34,7 +34,7 @@
     { "label": "Taiwan", "country": "Taiwan", "flag": "🇹🇼", "lat": 22.6273, "lng": 120.3014, "color": "#6C5CE7", "to": "Taipei" }
   ],
   "destinations": [
-    { "name": "Hong Kong", "flag": "🇭🇰", "code": "HKG", "mood": "Big Birthday Celebration", "lat": 22.3193, "lng": 114.1694, "order": 1, "blurb": "Where the whole crew lands and the birthday kicks off.", "why": "If you had to pick one city that is basically Chao in physical form, it's Hong Kong. East meets West, chaos meets order, dim sum at any hour and a skyline that doesn't quit. It's loud, it's alive, and it doesn't apologise for either. So when it came to picking where 17 people from 6 countries would fly halfway across the world to watch one man get old, this was always the answer. No debate needed.", "image": "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=900&q=70" },
+    { "name": "Hong Kong", "flag": "🇭🇰", "code": "HKG", "mood": "Big Birthday Celebration", "lat": 22.3193, "lng": 114.1694, "order": 1, "blurb": "Where the whole crew lands and the birthday kicks off.", "why": "If you had to pick one city that is basically Chao in physical form, it's Hong Kong. East meets West, chaos meets order, dim sum at any hour and a skyline that doesn't quit. It's loud, it's alive, and it doesn't apologise for either. So when it came to picking where 18 people from 6 countries would fly halfway across the world to watch one man get old, this was always the answer. No debate needed.", "image": "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=900&q=70" },
     { "name": "Shenzhen", "flag": "🇨🇳", "code": "SZX", "mood": "City of 2050", "lat": 22.5431, "lng": 114.0579, "order": 2, "blurb": "A quick high-speed-rail hop north for a night.", "why": "Honestly we just want to go and see some cool stuff. Robots walking the streets, drones in the sky, lights everywhere. Shenzhen is the city of 2050 and we're going to experience it firsthand. Someone might even bring a robot home.", "image": "https://images.unsplash.com/photo-1559227657-1835d2db47b6?w=900&q=70" },
     { "name": "Taipei", "flag": "🇹🇼", "code": "TPE", "mood": "Asia's Hidden Gem", "lat": 25.0330, "lng": 121.5654, "order": 3, "blurb": "Night markets, Jiufen, and Taipei Pride to finish.", "why": "Asia's best-kept secret and somehow still underrated. A melting pot where Japanese precision, Chinese soul, and Southeast Asian warmth all collide in the best possible way. Closest to where Chao was born, built around food you'll be dreaming about for weeks, and the kind of chill you simply can't manufacture.", "image": "https://images.unsplash.com/photo-1470004914212-05527e49370b?w=900&q=70" }
   ],

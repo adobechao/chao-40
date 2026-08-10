@@ -28,6 +28,11 @@ function renderHero(meta) {
   if (meta.playful) $("#heroPlayful").textContent = meta.playful;
   const footRange = $("#footRange");
   if (footRange) footRange.textContent = meta.tripWindow || meta.dateRange;
+  const footUpdated = $("#footUpdated");
+  if (footUpdated && meta.lastUpdated) {
+    const d = new Date(`${meta.lastUpdated}T00:00:00`);
+    footUpdated.textContent = `Last updated ${d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}`;
+  }
   $("#flightRef").innerHTML = meta.flightRef +
     (meta.flightRefSecret ? ` <span class="flight-ref">· booking ref ${lockedHTML(meta.flightRefSecret)}</span>` : "");
 

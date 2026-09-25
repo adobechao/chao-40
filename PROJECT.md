@@ -23,7 +23,7 @@ assets/styles.css      # all styling (CSS variables at top control the theme)
 assets/app.js          # renders everything from the JSON, countdown, Leaflet map
 data/itinerary.json    # <-- SINGLE SOURCE OF TRUTH. Edit this to update the trip.
 ```
-- Map: [Leaflet](https://leafletjs.com/) + CARTO light tiles (no API key needed).
+- Map: [Leaflet](https://leafletjs.com/) + OpenStreetMap standard tiles (no API key needed).
 - Fonts: Plus Jakarta Sans (Google Fonts).
 - Photos: Unsplash URLs in `itinerary.json` (`image` fields). Each has a graceful
   gradient fallback if a link breaks — swap any URL freely.

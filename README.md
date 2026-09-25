@@ -1,6 +1,6 @@
 # Chao turns 40 ✦ Hong Kong · Shenzhen · Taipei
 
-A fun, mobile-friendly itinerary site for a 40th birthday trip — 17 friends, 6 countries,
+A fun, mobile-friendly itinerary site for a 40th birthday trip — 18 friends, 6 countries,
 Oct–Nov 2026. Live countdown, the crew, an interactive map of everyone flying in, and the full
 day-by-day plan.
 

@@ -241,7 +241,8 @@
   ],
   "notes": [
     "This is a living list: will be constantly updated.",
-    "🇨🇳 Shenzhen is mainland China — sort your China visa or Shenzhen permit and set up Alipay/WeChat Pay before you fly (see the China tips below)."
+    "🇨🇳 Shenzhen is mainland China — UK and Australian ordinary passport holders can visit visa-free for up to 30 days through 31 Dec 2026. Other passport holders should check their current entry rules. Set up Alipay/WeChat Pay before you fly (see the China tips below).",
+    "🔋 Portable battery chargers: for flights departing mainland China, power banks must have a clear, valid CCC / 3C label. Keep them in your carry-on, not checked luggage."
   ],
   "chinaTips": {
     "eyebrow": "First time in China?",
@@ -287,11 +288,11 @@
       },
       {
         "icon": "🛂",
-        "title": "Visa & border — sort this early",
-        "note": "The big one. Because we cross from Hong Kong and come straight back, the 240-hour visa-free transit does NOT apply. Check your own passport's rules and arrange this before the trip.",
+        "title": "Visa & border — UK and Australia visa-free",
+        "note": "British and Australian ordinary passport holders can enter mainland China without a visa for up to 30 days through 31 Dec 2026, which covers our Shenzhen visit. Entry rules can change, so check again before departure.",
         "items": [
-          { "text": "Option A: a proper China tourist (L) visa — the safe choice, especially if any mainland plans change." },
-          { "text": "Option B: the 5-day Shenzhen Special Economic Zone permit, issued at the Futian / Lok Ma Chau checkpoint (about ¥168, pay by Alipay/WeChat). Valid inside Shenzhen only, open to UK, US, Australia and ~50 other nationalities.", "links": [ { "label": "Shenzhen 5-day permit details", "url": "https://www.travelchinaguide.com/cityguides/guangdong/shenzhen/visa-on-arrival.htm" } ] }
+          { "text": "UK and Australian ordinary passport holders do not need to apply for a visa for this trip. The waiver covers tourism stays of up to 30 days.", "links": [ { "label": "UK travel advice", "url": "https://www.gov.uk/foreign-travel-advice/china/entry-requirements" }, { "label": "Australian travel advice", "url": "https://www.smartraveller.gov.au/destinations/asia/china" } ] },
+          { "text": "Everyone else should check the rules for their own passport early. If a visa is required, a China tourist (L) visa or an eligible 5-day Shenzhen Special Economic Zone permit may be options.", "links": [ { "label": "Shenzhen 5-day permit details", "url": "https://www.travelchinaguide.com/cityguides/guangdong/shenzhen/visa-on-arrival.htm" } ] }
         ]
       },
       {
@@ -300,7 +301,8 @@
         "items": [
           { "text": "Carry your passport on the mainland — you'll need it for the train, hotel check-in and payment verification." },
           { "text": "Download a translation app with the offline Chinese pack before you go (Google Translate — grab the offline pack first — or Baidu Translate, which works locally). The camera menu-translate is a lifesaver." },
-          { "text": "Keep a little cash (CNY) as backup, but expect to pay for almost everything by QR." }
+          { "text": "Keep a little cash (CNY) as backup, but expect to pay for almost everything by QR." },
+          { "text": "Power banks carried on flights departing mainland China must show a clear, valid CCC / 3C mark; unlabelled, unreadable or recalled units are prohibited. Carry power banks in hand luggage only.", "links": [ { "label": "Official power-bank guidance", "url": "https://english.beijing.gov.cn/latest/news/202506/t20250628_4131163.html" } ] }
         ]
       }
     ]

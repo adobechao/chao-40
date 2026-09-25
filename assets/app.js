@@ -323,9 +323,9 @@ function renderMap(data) {
   const HK = data.destinations.find((d) => d.name === "Hong Kong");
   const map = L.map("leafletMap", { scrollWheelZoom: false, zoomControl: true, attributionControl: true })
     .setView([28, 105], 3);
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-    attribution: '&copy; OpenStreetMap &copy; CARTO',
-    subdomains: "abcd", maxZoom: 18,
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+    maxZoom: 19,
   }).addTo(map);
 
   const all = [];
